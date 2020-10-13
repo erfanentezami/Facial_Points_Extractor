@@ -1,0 +1,9 @@
+These libraries are required :
+glob
+cv2
+dlib
+
+You also need this model :
+shape_predictor_68_face_landmarks.dat
+
+<< This code is for python3 >>
