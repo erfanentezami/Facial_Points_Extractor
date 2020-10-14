@@ -3,12 +3,12 @@ import cv2
 import glob
 
 # for inputing your path remember to change all \ to /      
-MODEL = "shape_predictor_68_face_landmarks.dat"
+model = "shape_predictor_68_face_landmarks.dat"
 path="============ input your images path ============"
 
 frontalFaceDetector = dlib.get_frontal_face_detector()
 
-faceLandmarkDetector = dlib.shape_predictor(MODEL)
+faceLandmarkDetector = dlib.shape_predictor(model)
 
 
 # loading images
